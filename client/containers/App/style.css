@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  font-family: 'Roboto';
+  height: 100vh;
+}
+
+.normal {
+  background: #fbfbfb;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  height: 80vh;
+  width: 80vw;
+
+  overflow: hidden;
+  color: #c2c6c9;
+}
+
+ /* #eeeff3 */
