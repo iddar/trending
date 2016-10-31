@@ -10,7 +10,6 @@ import style from './style.css'
 
 class App extends Component {
   render() {
-    const { todos, actions, children } = this.props
     return (
       <div className={style.normal}>
         <Header />
@@ -33,7 +32,4 @@ function mapDispatchToProps(dispatch) {
   }
 }
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App)
+export default App

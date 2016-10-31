@@ -13,7 +13,8 @@ class Header extends Component {
   render() {
     return (
       <header className={style.header}>
-        <h1>Trending</h1>
+        <h1>Dashboard</h1>
+        <img src='assets/logo.svg' className={style.img} />
       </header>
     )
   }

@@ -5,8 +5,7 @@
   height: 80px;
 
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .header h1 {
@@ -14,4 +13,11 @@
   font-weight: 200;
 
   text-transform: uppercase;
+  flex: 1;
+}
+
+.img {
+  align-self: center;
+
+  height: 100px;
 }

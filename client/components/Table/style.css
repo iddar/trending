@@ -1,0 +1,72 @@
+.normal {
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+}
+
+.tableHead {
+  background: #f9f9fb;
+  height: 50px;
+
+  border-bottom: 1px solid #d6d5da;
+  padding-left: 2rem;
+
+  display: flex;
+  align-items: center;
+
+  font-weight: 300;
+}
+
+.tableTitles {
+  color: #575b64;
+
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+
+  border-bottom: 1px solid #d6d5da;
+}
+
+.tableTitles div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+
+  padding: 10px 0;
+
+  font-size: 0.8rem;
+  font-weight: 400;
+
+  height: 50px;
+}
+
+.list {
+  overflow: auto;
+}
+
+.row {
+  background: #f0f1f5;
+  border-bottom: 1px solid #d6d5da;
+
+  height: 35px;
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 2rem;
+
+  color: #bac1d1;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.row div {
+  display: flex;
+  flex: 1;
+
+  padding: 10px 0;
+
+  font-size: 0.8rem;
+  font-weight: 400;
+}

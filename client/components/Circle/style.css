@@ -1,0 +1,40 @@
+.circle {
+  position: relative;
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+
+  fill: #000;
+  height: 80px;
+  width: 80px;
+}
+
+.icon:hover {
+  fill: #5daf41;
+}
+
+.active, .active {
+  fill: #ef7955;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  margin-top: 10px;
+
+  font-weight: 300;
+  font-size: 0.7rem;
+  color: #50545f;
+}
+
+.title p {
+  margin: 0;
+}
